@@ -184,6 +184,23 @@ footer .social img {
     margin-top: 100px;
 }
 
+/*
+Sub-page css
+*/
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 30px;
+}
+.rivers-grid h1 {
+    grid-column: 1/3;
+}
+.rivers-grid p {
+    margin-left: 40px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
