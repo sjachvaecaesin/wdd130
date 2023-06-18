@@ -196,9 +196,11 @@ Sub-page css
 }
 .rivers-grid h1 {
     grid-column: 1/3;
+    font-family: "Permanent Marker", Helvetica, sans-serif;
 }
 .rivers-grid p {
     margin-left: 40px;
+    font-family: Heebo, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 900px) {
