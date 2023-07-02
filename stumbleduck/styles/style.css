@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&family=Shadows+Into+Light&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #2274a5;
+}
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #000000;
+    font-family: "Shadows Into Light", Helvetica, sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    text-align: center;
+    color: #000000;
+    font-family: "Kaisei Decol", Helvetica, sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    padding: 35px;
+}
+header {
+    background-color: #4c230a;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 150px;
+    height: 100%;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px;
+}
+.concept {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-items: center;
+    margin-left: 85px;
+}
+.DM {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-items: center;
+    margin-right: 60px;
+}
+.characters {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-items: center;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+#dice {
+    margin-left: 85px;
+    margin-top: 60px;
+}
+#forest {
+    margin-left: 85px;
+    margin-top: 25px;
+}
+.concept h2 {
+    font-family: "Shadows Into Light", Helvetica, sans-serif;
+    font-size: 50px;
+}
+.DM h2 {
+    font-family: "Shadows Into Light", Helvetica, sans-serif;
+    font-size: 50px;
+}
+.characters h2 {
+    font-family: "Shadows Into Light", Helvetica, sans-serif;
+    font-size: 50px;
+}
+.concept p {
+    font-family: "Kaisei Decol", Helvetica, sans-serif;
+    font-size: 19px;
+}
+.DM p {
+    font-family: "Kaisei Decol", Helvetica, sans-serif;
+    font-size: 19px;
+}
+.characters p {
+    font-family: "Kaisei Decol", Helvetica, sans-serif;
+    font-size: 19px;
+}
+footer {
+    background-color: #4c230a;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
