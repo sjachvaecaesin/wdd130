@@ -134,3 +134,26 @@ lore page css
 #mountain {
     margin-top: 80px;
 }
+
+/*
+adventure page css
+*/
+
+.adventure-grid {
+    display: grid;
+    grid-template-rows: 650px 1fr 500px;
+    justify-items: center;
+}
+.adventure-grid p {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 70px;
+    font-family: "Kaisei Decol", Helvetica, sans-serif;
+}
+#cave {
+    grid-row: 1/2;
+    margin-top: 80px;
+}
+#game {
+    grid-row: 3/4;
+}
