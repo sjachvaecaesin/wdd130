@@ -145,10 +145,11 @@ adventure page css
     justify-items: center;
 }
 .adventure-grid p {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 70px;
     font-family: "Kaisei Decol", Helvetica, sans-serif;
+    font-size: 17px;
 }
 #cave {
     grid-row: 1/2;
